@@ -1,0 +1,28 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    transform: rotate(45deg);
+    margin: 40px;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    transform: skew(5deg);
+    margin: 40px;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    transform: scale(1.4);
+    margin: 40px;
+}
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    transform: translate(300px, 300px);
+    margin: 40px;
+}
