@@ -4,25 +4,253 @@
     background-color: #FFFC4B;
     transform: rotate(45deg);
     margin: 40px;
+    animation: spin 3s infinite ease-in-out;
+    display: inline-block;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 .box2 {
     width: 100px;
     height: 100px;
     background-color: #FFFC4B;
-    transform: skew(5deg);
     margin: 40px;
+    animation: spin 2500ms infinite linear;
+    display: inline-block;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 .box3 {
     width: 100px;
     height: 100px;
     background-color: #FFFC4B;
-    transform: scale(1.4);
-    margin: 40px;
+    transform: skew(45deg);
+    bottom: 0;
+    margin: 20px;
+    position: relative;
+    animation: jump .6s alternate-reverse infinite ease-in-out;
+    display: inline-block;
+}
+@keyframes jump {
+    from {
+        bottom: 150px;
+    }
+    to {
+        bottom: 0;
+    }
 }
 .box4 {
     width: 100px;
     height: 100px;
     background-color: #FFFC4B;
-    transform: translate(300px, 300px);
-    margin: 40px;
+    border-radius: 50%;
+    transform: scale(1.1);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 1s;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        right: 1000px;
+    }
+}
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    border-radius: 50%;
+    transform: scale(1.2);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 0.9s;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 1000px;
+    }
+}
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    border-radius: 50%;
+    transform: scale(1.3);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 0.8s;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 1000px;
+    }
+}
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    border-radius: 50%;
+    transform: scale(1.4);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 0.7s;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 1000px;
+    }
+}
+.box8 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    border-radius: 50%;
+    transform: scale(1.5);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 0.6s;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 1000px;
+    }
+}
+.box9 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    border-radius: 50%;
+    transform: scale(1.6);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        right: 1000px;
+    }
+}
+.box10 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    border-radius: 50%;
+    transform: scale(1.7);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 0.4s;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 1000px;
+    }
+}
+.box11 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    border-radius: 50%;
+    transform: scale(1.8);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 1000px;
+    }
+}
+.box12 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    border-radius: 50%;
+    transform: scale(1.9);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 1000px;
+    }
+}
+.box13 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFC4B;
+    border-radius: 50%;
+    transform: scale(2);
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    animation: slide 2s alternate-reverse infinite ease-in-out;
+    animation-delay: 0.1s;
+}
+.face {
+   width: 100px;
+   height: 100px;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 1000px;
+    }
 }
